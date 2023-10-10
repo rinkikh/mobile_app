@@ -1,8 +1,11 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
+    background-color: #beeefa;
+    color: #e9eef3;
+    user-select: none;
 }
 
 .container {
@@ -13,31 +16,39 @@ html, body {
 }
 
 img {
-    width: 150px;
+    width: 310px;
     margin: 0 auto;
 }
 
 input {
-    color: #432000;
+    color: #041a73;
     background-color: #DCE1EB;
     border: 0;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: sans-serif;
     margin: 10px 0;
 }
 
 button {
-    color: #FDFDFD;
-    background-color: #AC485A;
+    color: #f4f4f9;
+    background-color: #57c7f4;
     border: 0;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
+
     font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: #075774;
+    cursor: pointer;
 }
 
 ul {
@@ -50,10 +61,17 @@ ul {
 
 ul li {
     font-size: 20px;
-    background-color: #FFFDF8;
+    background-color: #0776b6;
     padding: 15px;
     border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
     flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #04303c;
+    cursor: pointer;
 }
